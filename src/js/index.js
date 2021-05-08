@@ -12,7 +12,7 @@ if (counter === 0) {
 function chatbotResponse() {
   botMessage = "Introduzca la respuesta correcta por favor"; //the default message
 
-  if (lastUserMessage === "si") {
+  if (lastUserMessage === "si" || lastUserMessage === "Si") {
     botMessage = "Perfecto";
   }
 
